@@ -1,0 +1,33 @@
+.edit-button {
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.space {
+  height:5vh
+}
+
+.input-text {
+  padding:1rem
+}
+
+.preview {
+  margin: auto;
+  width: 50rem;
+  border: 0.5rem solid black;
+}
+
+.dropdown-box {
+  margin: auto;
+  width: 50%;
+  margin-top: 0.1vh;
+  margin-bottom: 0.5vh;
+}
+
+.link-button {
+  width: 10rem;
+  margin: auto;
+  margin-top: 0.5ch;
+  margin-bottom: 0.5ch;
+}

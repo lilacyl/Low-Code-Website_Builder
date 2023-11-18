@@ -1,0 +1,44 @@
+.templates {
+    display: block;
+    /* justify-content: center; */
+    margin: auto;
+    /* overflow-y: scroll; */
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: scroll;
+  }
+#Text{
+  text-align: center;
+  font-family: "Fantasy", Papyrus;
+}
+  .stack{
+    background-color: lightgray;
+  }
+.divider{
+    font-family: "Fantasy", Papyrus;
+    color: black;
+    font-size: 6vh;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      height: 0.09em;
+      min-width: 30vw;
+    }
+    
+    &::before {
+      background: linear-gradient(to right, rgba(240,240,240,0), #fff);
+      margin-right: 4vh;
+    }
+    
+    &::after {
+      background: linear-gradient(to left, rgba(240,240,240,0), #fff);
+      margin-left: 4vh;
+    } 
+}
